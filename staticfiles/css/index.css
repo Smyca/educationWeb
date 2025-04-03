@@ -1,24 +1,100 @@
 
 body{
-    background: url(/static/img/fondo.jpg) no-repeat center center fixed;
+    background:
+    linear-gradient(rgba(0, 0, 0, 0.8)), 
+     url(/static/img/fondo.jpg) no-repeat center center fixed;
     background-size: cover;
     box-sizing: border-box;
+    height: 150vh;
 }
 
 
-.hola{
-    background-color: green;
-}
 .title{
-    border: 2px solid white;
+
     margin: 50px;
     text-align: center;
-    backdrop-filter: blur(30px);
-    font-size: 35px;
     color: white;
 }
 
 h1{
+   border-radius: 10%;
+    backdrop-filter: blur(30px);
+
     display:inline-block;
 
 }
+
+.listas{
+    text-align: center;
+    color: white;
+}
+
+
+/* ACORDION */
+
+/* LENGAUJE */
+/* Cuando el acordeón está abierto */
+.lengua:not(.collapsed) , .lengua.collapsed {
+    background-color: rgba(84, 0, 0, 1); /* Fondo gris semi-transparente */
+    color: white;
+    border-color: rgba(108, 117, 125, 0.7); /* Borde gris semi-transparente */
+}
+/* Contenido del acordeón con fondo semi-transparente */
+.lengua_content{
+    background-color: rgba(176, 0, 0, 0.2); /* Fondo semi-transparente blanco */
+    color: #343a40; /* Color del texto */
+}
+
+/* MATEMATICA */
+/* Cuando el acordeón está abierto */
+.matematica:not(.collapsed) , .matematica.collapsed {
+    background-color: rgb(17, 0, 143); /* Fondo gris semi-transparente */
+    color: white;
+    border-color: rgba(108, 117, 125, 0.7); /* Borde gris semi-transparente */
+}
+/* Contenido del acordeón con fondo semi-transparente */
+.matematica_content{
+    background-color: rgba(0, 15, 176, 0.2); /* Fondo semi-transparente blanco */
+    color: #343a40; /* Color del texto */
+}
+
+/* ESTUDIOS SOCIALES */
+/* Cuando el acordeón está abierto */
+.estudios_sociales:not(.collapsed) , .estudios_sociales.collapsed {
+    background-color: rgba(7, 131, 56, 1); /* Fondo gris semi-transparente */
+    color: white;
+    border-color: rgba(108, 117, 125, 0.7); /* Borde gris semi-transparente */
+}
+/* Contenido del acordeón con fondo semi-transparente */
+.sociales_content{
+    background-color: rgba(7, 131, 56, 0.2); /* Fondo semi-transparente blanco */
+    color: #343a40; /* Color del texto */
+}
+
+/* CIENCIAS SOCIALES */
+/* Cuando el acordeón está abierto */
+.ciencias:not(.collapsed) , .ciencias.collapsed {
+    background-color: rgb(0, 18, 9, 1); /* Fondo gris semi-transparente */
+    color: white;
+    border-color: rgba(0, 18, 9, 0.7); /* Borde gris semi-transparente */
+}
+/* Contenido del acordeón con fondo semi-transparente */
+.ciencias_content{
+    background-color: rgba(0, 18, 9, 0.7); /* Fondo semi-transparente blanco */
+    color: #000000; /* Color del texto */
+}
+
+
+/* INGLES */
+/* Cuando el acordeón está abierto */
+.ingles:not(.collapsed) , .ingles.collapsed {
+    background-color: rgb(211, 63, 0); /* Fondo gris semi-transparente */
+    color: white;
+    border-color: rgba(108, 117, 125, 0.7); /* Borde gris semi-transparente */
+}
+/* Contenido del acordeón con fondo semi-transparente */
+.ingles_content{
+    background-color: rgba(211, 63, 0,0.5); /* Fondo semi-transparente blanco */
+    color: #343a40; /* Color del texto */
+}
+
