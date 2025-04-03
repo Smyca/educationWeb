@@ -6,8 +6,8 @@ services:
     ports: 
     - "8000:8000"
     volumes:
-	- .:/app
-	- static_volume:/app/staticfiles
+    - .:/app
+    - static_volume:/app/staticfiles
 
-  volumes:
+volumes:
     static_volume:

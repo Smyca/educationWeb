@@ -1,2 +1,4 @@
-gunicorn==20.1.0
 Django
+gunicorn
+django-livereload-server
+whitenoise 
