@@ -1,0 +1,24 @@
+
+body{
+    background: url(/static/img/fondo.jpg) no-repeat center center fixed;
+    background-size: cover;
+    box-sizing: border-box;
+}
+
+
+.hola{
+    background-color: green;
+}
+.title{
+    border: 2px solid white;
+    margin: 50px;
+    text-align: center;
+    backdrop-filter: blur(30px);
+    font-size: 35px;
+    color: white;
+}
+
+h1{
+    display:inline-block;
+
+}
